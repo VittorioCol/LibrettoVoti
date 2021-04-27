@@ -48,7 +48,7 @@ public class Voto {
 
 	@Override
 	public String toString() {
-		return "Voto [nome_corso=" + nome_corso + ", voto_ottenuto=" + voto_ottenuto + ", dat_esame=" + dat_esame + "]";
+		return "nome:" + nome_corso + ", voto:" + voto_ottenuto + ", data:" + dat_esame + "\n";
 	}
 	
 }
